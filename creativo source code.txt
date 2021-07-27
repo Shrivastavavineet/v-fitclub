@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple navbar using css grid & flexbox</title>
+    <link rel="stylesheet"href="style'css">
+</head>
+<body>
+    <div class="header">
+        <div class="nav">
+            <img src="logo.png" alt="">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">portfloi</a></li>
+                <li><a href="#">services</a></li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#">contact</a></li>
+                
+                </ul
+                </div>
+            </div>
+            </body>
+            <html>
+                >
+    *{
+
+       margin: 0;
+       padding:0; 
+    }
+    <body>{
+        background image: url(http://images.pexel.com/photos/950241/pexel-photo-950241.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+<font-family:popins>
+    -webkit-background-size: cover;
+    background-size: cover;
+    <height:100vh;
+    }
+    .nav ul{
+        list-style: none;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: -webkit-flex;
+    }
+    .nav ul li a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .header{
+        background:deepskyblue;
+        overflow: hidden;
+    }
+        .nav{
+            display: grid;
+            grid-template-columns: Grf Grf;
+            align-items: center;
+            width:1100px;
+            margin: auto;
+        }
+    </body>
